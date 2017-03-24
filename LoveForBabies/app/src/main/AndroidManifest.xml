@@ -21,6 +21,7 @@
         <activity
             android:name=".Login"
             android:label="@string/title_activity_login"
+<<<<<<< HEAD
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -30,6 +31,14 @@
         </activity>
         <activity android:name=".AppRegistration" />
         <activity android:name=".ImageUpload"></activity>
+=======
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".AppRegistration"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_app_registration"
+            android:theme="@style/FullscreenTheme"></activity>
+>>>>>>> origin/master
     </application>
 
 </manifest>
