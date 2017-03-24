@@ -28,7 +28,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AppRegistration"></activity>
+        <activity android:name=".AppRegistration" />
+        <activity android:name=".ImageUpload"></activity>
     </application>
 
 </manifest>
